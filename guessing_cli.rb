@@ -1,5 +1,5 @@
 def run_guessing_game
-  input = nil
+  input = ""
   puts "Guess a number between 1 and 6."
   while input != "exit"
     random_number =  Random.rand(1..6)
