@@ -2,7 +2,7 @@ def run_guessing_game
   input = ""
   puts "Guess a number between 1 and 6."
   while input != "exit"
-    random_number =  Random.rand(1..6)
+    random_number =  rand(1..6)
     input = gets.chomp 
     input_as_integer = input.to_i
     if random_number == input_as_integer
