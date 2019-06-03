@@ -8,7 +8,7 @@ def run_guessing_game
     if random_number == input_as_integer
       puts "You guessed the correct number!"
     else 
-      puts "The computer guessed <#{random_number}>."
+      puts "The computer guessed #{random_number}."
     end 
   end 
   puts "Goodbye!"
